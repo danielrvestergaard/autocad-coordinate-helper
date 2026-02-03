@@ -2,7 +2,7 @@
 # import pyperclip
 import numpy as np
 import pandas as pd
-# import re
+import re
 # from pynput import mouse, keyboard
 from ipywidgets import widgets
 # from tkinter import filedialog, Tk
