@@ -4,7 +4,7 @@
 # import pandas as pd
 # import re
 # from pynput import mouse, keyboard
-# from ipywidgets import widgets
+from ipywidgets import widgets
 # from tkinter import filedialog, Tk
 
 class AutoCAD_Coordinate_Helper:
@@ -12,21 +12,20 @@ class AutoCAD_Coordinate_Helper:
     #coordinates = []
 
     def __init__(self):
-        pass
-        # heading = widgets.HTML(
-        #     '<h1>AutoCAD coordinate retriever</h1>'
-        # )
-        # explanation = widgets.HTML(
-        #     '<p>1. Make sure your .dwg file is open in AutoCAD.</p>'
-        #     '<p>2. Click the Launch button.</p>'
-        #     '<p>3. Click the coordinates your wish to record.</p>'
-        #     '<p>4. To exit coordinate clicking mode, right-click.</p>'
-        #     '<p>5. You can delete selected coordinates by using the Delete button.</p>'
-        #     '<p>6. You may re-enter clicking mode by clicking the Launch button.</p>'
-        #     '<p>7. Click the Save button to export the coordinates to a .csv file in your selected folder.</p>'
-        # )
-        # display(heading)
-        # display(explanation)
+        heading = widgets.HTML(
+            '<h1>AutoCAD coordinate retriever</h1>'
+        )
+        explanation = widgets.HTML(
+            '<p>1. Make sure your .dwg file is open in AutoCAD.</p>'
+            '<p>2. Click the Launch button.</p>'
+            '<p>3. Click the coordinates your wish to record.</p>'
+            '<p>4. To exit coordinate clicking mode, right-click.</p>'
+            '<p>5. You can delete selected coordinates by using the Delete button.</p>'
+            '<p>6. You may re-enter clicking mode by clicking the Launch button.</p>'
+            '<p>7. Click the Save button to export the coordinates to a .csv file in your selected folder.</p>'
+        )
+        display(heading)
+        display(explanation)
         
     #     launch_button = self._launchButton
     #     save_button = self._saveButton
