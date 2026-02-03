@@ -4,6 +4,5 @@ pandas
 pyautogui
 pynput
 pyperclip
-re
 tkinter
 voila
