@@ -24,8 +24,8 @@ class AutoCAD_Coordinate_Helper:
             '<p>6. You may re-enter clicking mode by clicking the Launch button.</p>'
             '<p>7. Click the Save button to export the coordinates to a .csv file in your selected folder.</p>'
         )
-        display(heading)
-        display(explanation)
+        # display(heading)
+        # display(explanation)
         
     #     launch_button = self._launchButton
     #     save_button = self._saveButton
