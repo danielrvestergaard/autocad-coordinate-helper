@@ -1,4 +1,4 @@
-import pyautogui
+#import pyautogui
 import pyperclip
 import numpy as np
 import pandas as pd
